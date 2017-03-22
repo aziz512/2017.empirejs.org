@@ -1,0 +1,22 @@
+{
+  "name": "2017.empirejs.org",
+  "version": "1.0.0",
+  "description": "2017 EmpireJS site",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/empirejs/2017.empirejs.org.git"
+  },
+  "keywords": [
+    "empirejs",
+    "2017"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/empirejs/2017.empirejs.org/issues"
+  },
+  "homepage": "https://github.com/empirejs/2017.empirejs.org#readme",
+  "dependencies": {
+    "st": "~1.2.0"
+  }
+}
