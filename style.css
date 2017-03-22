@@ -17,14 +17,7 @@ body {
     color: black;
     font-family: Quattrocento, serif;
     line-height: 1.8925;
-    background-image: url(img/cab-splash.png);
-    background-size: cover;
-    background-position: center;
-    &:before,
-    &:after {
-        content: '';
-        position: absolute;
-    }
+    background-color: #F3CE75;
 
     @media (max-height: 450px) {
         font-size: 10px;
@@ -32,8 +25,11 @@ body {
 }
 
 .content {
+    background-image: url(img/cab-splash.png);
+    background-size: cover;
+    background-position: center;
     position: relative;
-    max-width: 850px;
+    max-width: 1100px;
     z-index: 1;
     padding: 4%;
     text-align: justify;
