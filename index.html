@@ -224,8 +224,8 @@
                     e.preventDefault();
                 });
 
-                $('.off-canvas').on('click', function(e) {
-                    e.stopPropagation();
+                $('.off-canvas').on('click', '.nav a', function(e) {
+                    $('.page-frame').removeClass('active');
                 });
 
                 $('body').on('click', '.active .content-frame', function(e) {
