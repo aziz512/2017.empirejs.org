@@ -1,5 +1,4 @@
-var map;
-function initialize() {
+function initMap() {
     var latLng = new google.maps.LatLng(40.791885, -73.952581);
     var styles = [
         {
@@ -99,5 +98,3 @@ function initialize() {
     //     map
     // );
 }
-
-google.maps.event.addDomListener(window, 'load', initialize);
